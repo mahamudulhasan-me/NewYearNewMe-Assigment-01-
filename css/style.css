@@ -23,6 +23,7 @@ main {
 .section-title h1 {
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 /* Banner Style CSS */
 .banner {
@@ -103,6 +104,15 @@ main {
 }
 .plan-item h1 {
   margin: 24px 0px 16px;
+}
+/* Blog section style css  */
+.blog-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.blog-item img {
+  width: 350px;
 }
 
 /* Keep Positive Style CSS */
