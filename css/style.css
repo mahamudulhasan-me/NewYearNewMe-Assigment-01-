@@ -59,9 +59,10 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 50px;
 }
 .failure-list {
-  padding-right: 10%;
+  padding-right: 5%;
 }
 .failure-list h1 {
   font-weight: 700;
@@ -74,7 +75,10 @@ main {
 .failed-task ul li {
   list-style: none;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 500;
+  display: flex;
+  float: left;
+  align-items: center;
 }
 .failed-task img {
   width: 25px;
@@ -107,13 +111,37 @@ main {
   margin: 24px 0px 16px;
 }
 /* Blog section style css  */
+.blog-section {
+  margin-bottom: 130px;
+}
 .blog-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   gap: 30px;
+  text-align: justify;
+}
+.blog-item {
+  padding: 10px;
+}
+.blog-content h1 {
+  margin: 10px 0px;
+}
+.blog-content p {
+  padding-bottom: 15px;
 }
 .blog-item img {
-  width: 350px;
+  width: 320px;
+  height: 320px;
+}
+.blog-content {
+  border-bottom: 1px solid #005fac;
+  margin-bottom: 10px;
+}
+.blog-author {
+  display: flex;
+  justify-content: space-between;
+  gap: 25%;
 }
 
 /* Keep Positive Style CSS */
