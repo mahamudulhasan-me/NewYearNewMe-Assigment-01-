@@ -15,7 +15,7 @@
   background-color: #ffffff;
 }
 main {
-  max-width: 1150px;
+  max-width: 1140px;
 }
 .section-title {
   text-align: center;
@@ -24,6 +24,7 @@ main {
 .section-title h1 {
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 /* Banner Style CSS */
 .banner {
@@ -104,4 +105,83 @@ main {
 }
 .plan-item h1 {
   margin: 24px 0px 16px;
+}
+/* Blog section style css  */
+.blog-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.blog-item img {
+  width: 350px;
+}
+
+/* Keep Positive Style CSS */
+.keep-positive {
+  background: url(../images/watch.png),
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding: 60px 617px 0 64px;
+  border-radius: 8px;
+  margin-bottom: 130px;
+}
+.keep-positive h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+.keep-positive button {
+  margin: 24px 0 59px;
+}
+
+/* Footer Section Style CSS */
+footer {
+  padding: 130px 0px;
+  width: 100%;
+  background-color: black;
+}
+.contact-subs-section {
+  max-width: 1140px;
+  color: #ffffff;
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+}
+.contact-section {
+  width: 50%;
+}
+.contact-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.contact-section p {
+  margin: 16px 0 24px;
+}
+.social-icon {
+  margin-top: 32px;
+}
+.social-icon img {
+  width: 46px;
+  height: 46px;
+  margin-right: 17px;
+}
+.subs-section {
+  width: 40%;
+}
+.subs-section form input[type="email"] {
+  border: 1px solid #ffffff;
+  outline: none;
+  margin: 31px 0 16px;
+  padding: 14px;
+  width: 70%;
+  border-radius: 5px;
+}
+.subs-btn {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #005fac;
 }
