@@ -6,7 +6,7 @@
 
 /* Common Style CSS */
 .primary-btn {
-  padding: 21px 26px;
+  padding: 16px 26px;
   border: none;
   color: #005fac;
   font-size: 20px;
@@ -93,7 +93,7 @@ main {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  gap: 70px;
+  gap: 60px;
 }
 .plan-item {
   padding: 8px 8px 24px;
@@ -106,9 +106,15 @@ main {
 .plan-item img {
   width: 90px;
   height: 90px;
+  margin-top: 15px;
 }
 .plan-item h1 {
+  font-weight: 700;
   margin: 24px 0px 16px;
+}
+.plan-item p {
+  color: #737272;
+  font-weight: 500;
 }
 /* Blog section style css  */
 .blog-section {
@@ -129,6 +135,7 @@ main {
 }
 .blog-content p {
   padding-bottom: 15px;
+  color: #737272;
 }
 .blog-item img {
   width: 320px;
