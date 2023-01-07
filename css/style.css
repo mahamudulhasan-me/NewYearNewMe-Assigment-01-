@@ -26,6 +26,7 @@ main {
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 /* Banner Style CSS */
 .banner {
   width: 100%;
@@ -115,7 +116,9 @@ main {
 .plan-item p {
   color: #737272;
   font-weight: 500;
+  font-size: 18px;
 }
+
 /* Blog section style css  */
 .blog-section {
   margin-bottom: 130px;
@@ -208,12 +211,12 @@ footer {
   border: 1px solid #ffffff;
   outline: none;
   margin: 31px 0 16px;
-  padding: 14px;
-  width: 70%;
+  padding: 18px;
+  width: 65%;
   border-radius: 5px;
 }
 .subs-btn {
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-weight: 500;
   font-size: 20px;
   color: #ffffff;
