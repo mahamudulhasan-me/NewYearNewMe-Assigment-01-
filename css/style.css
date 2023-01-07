@@ -12,6 +12,7 @@
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
+  background-color: #ffffff;
 }
 main {
   max-width: 1150px;
@@ -92,7 +93,7 @@ main {
 .plan-item {
   padding: 8px 8px 24px;
   box-shadow: 2px 2px 5px 3px rgba(0, 95, 172, 0.534);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .plan-item:hover {
   box-shadow: 3px 3px 5px 5px rgba(0, 95, 172, 0.712);
