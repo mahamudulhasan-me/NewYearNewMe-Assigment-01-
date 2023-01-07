@@ -26,7 +26,10 @@ main {
   font-weight: 700;
   margin-bottom: 20px;
 }
-
+.section-title p {
+  color: #737272;
+  font-size: 18px;
+}
 /* Banner Style CSS */
 .banner {
   width: 100%;
@@ -222,4 +225,5 @@ footer {
   color: #ffffff;
   border-radius: 5px;
   background-color: #005fac;
+  border: none;
 }
